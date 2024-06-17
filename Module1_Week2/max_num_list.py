@@ -1,7 +1,7 @@
 def input_list():
     inputlist = input("Fill number in the list (seperated by spacebar): ")
-    list = [int(x) for x in inputlist.split()]  
-    return list
+    result = [int(x) for x in inputlist.split()]
+    return result
 
 
 num_list = input_list()

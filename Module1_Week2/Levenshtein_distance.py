@@ -1,6 +1,6 @@
 word1 = input("First word: ")
 word2 = input("Second word: ")
-distances = [[0]*(len(word2)+1) for i in range(len(word1)+1)]
+distances = [[0]*(len(word2)+1) for _ in range(len(word1)+1)]
 
 for t1 in range(len(word1) + 1):
     distances[t1][0] = t1
