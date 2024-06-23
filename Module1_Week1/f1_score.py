@@ -1,12 +1,15 @@
 import math  # Importing the math module for mathematical operations
 
 # Function to check if a value can be converted to an int (i.e., is a number)
+
+
 def check(x):
     try:
         int(x)  # Try converting the value to an int
         return True  # If successful, return True
     except ValueError:
         return False  # If conversion fails, return False
+
 
 # Get user input
 tp = input("tp = ")
@@ -27,7 +30,7 @@ if not check(fn):
 # If there are any errors, print the corresponding message
 if errors:
     print(f"{' and '.join(errors)} must be int")
-else: 
+else:
     # Convert input strings to integers
     tp = int(tp)
     fp = int(fp)
