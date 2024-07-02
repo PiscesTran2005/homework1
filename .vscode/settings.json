@@ -2,5 +2,8 @@
     "sonarlint.connectedMode.project": {
         "connectionId": "piscestran2005",
         "projectKey": "PiscesTran2005_homework1"
-    }
+    },
+    "python.analysis.extraPaths": [
+        "./Module1_Image Project/yolov10"
+    ]
 }
