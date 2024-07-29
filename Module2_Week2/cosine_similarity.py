@@ -10,3 +10,4 @@ def dot_product(vector1, vector2):
 def compute_cosine(v1, v2):
   cos_sim = dot_product(v1,v2) / (vector_length(v1)*vector_length(v2))
   return cos_sim
+
