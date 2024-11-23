@@ -161,3 +161,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 Module1_Text Project/RAG_with_ChatUI.ipynb
+Module2/Week2/eigenvector_and_eigenvalue.py
